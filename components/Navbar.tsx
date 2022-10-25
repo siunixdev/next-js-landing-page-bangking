@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <>
       <div className={styles.navbar}>
-        <Image src='/images/logo.png' height={20} width={55} alt="logo" />
+        <h1>abci</h1>
         <ul>
           <li>
             <Link href="">Home</Link>

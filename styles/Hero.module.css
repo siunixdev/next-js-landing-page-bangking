@@ -1,0 +1,44 @@
+.hero {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  gap: 10rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  text-align: left;
+}
+
+.content h1 {
+  font-size: 70px;
+  margin: 1rem 0;
+}
+
+.content p {
+  font-size: 20px;
+  color: #575455;
+  line-height: 2rem;
+}
+
+.vendor {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 10rem;
+}
+
+.vendor img {
+  filter: brightness(0%);
+}
+
+.vendor img:hover {
+  filter: brightness(100%);
+}
+
+/* .vendor img {
+filter: gray saturate(0%) brightness(70%) contrast(1000%);
+} */
