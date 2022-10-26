@@ -1,7 +1,7 @@
 import Image from "next/image"
 import styles from "../styles/Hero.module.css"
 
-function Hero() {
+const Hero = () => {
   return (
     <>
       <div className={styles.hero}>

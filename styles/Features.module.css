@@ -1,0 +1,20 @@
+.features {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 36px;
+}
+
+.features p {
+  color: #575455;
+  line-height: 2rem;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+  margin-top: 5rem;
+}

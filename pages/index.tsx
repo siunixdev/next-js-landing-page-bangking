@@ -1,9 +1,10 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import styles from '../styles/Home.module.css'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
-import styles from '../styles/Home.module.css'
+import Features from '../components/Features'
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
         <div className={styles.container}>
           <Navbar />
           <Hero />
+          <Features />
         </div>
       </main>
 
