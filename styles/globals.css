@@ -22,6 +22,22 @@ a {
   background-color: #f0f2ff;
   color: #070F18;
   cursor: pointer;
+  font-weight: 500;
+}
+
+.button-white {
+  background-color: #FFFFFF;
+  color: #1F7CFF;
+}
+
+.button-outline {
+  border: 1px solid #FFFFFF;
+  background-color: #1F7CFF;
+  color: #FFFFFF;
+}
+
+.container {
+  padding: 0 12rem;
 }
 
 @media (prefers-color-scheme: dark) {

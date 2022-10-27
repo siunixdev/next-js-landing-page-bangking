@@ -1,0 +1,85 @@
+.footer {
+  position: relative;
+  background-color: #191046;
+  padding: 14rem 0 1rem;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+}
+
+.bookAction {
+  position: absolute;
+  background-color: #1F7CFF;
+  top: -11rem;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 4rem 0px;
+  width: 70rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bookAction h2 {
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+.action {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.items {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  gap: 2rem;
+  text-align: left;
+}
+
+.items h5 {
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.items p {
+  font-size: 12px;
+  color: #C6C6C6;
+}
+
+.items ul {
+  padding: 0;
+}
+
+.items li {
+  list-style-type: none;
+  color: #070F18;
+}
+
+.textWithIcon {
+  display: flex;
+  align-items: flex-start;
+  gap: .5rem;
+  margin-bottom: 1rem;
+}
+
+.textWithIcon .icon {
+  height: 20px;
+  width: 20px;
+  color: #FFFFFF;
+}
+
+.textWithIcon p {
+margin: 0;
+}
+
+.copyright {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+}
